@@ -1,0 +1,16 @@
+source 'http://git.felink.com:3000/felink-ios/flspecs.git'
+#source 'https://github.com/CocoaPods/Specs.git'
+#use_frameworks!
+
+target 'LHDevKit_Example' do
+  pod 'LHDevKit', :path => '../'
+
+  target 'LHDevKit_Tests' do
+      inherit! :search_paths
+      
+  end
+
+  target 'LHDevKit' do
+      inherit! :search_paths
+  end
+end
