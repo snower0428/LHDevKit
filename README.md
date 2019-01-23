@@ -8,7 +8,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-iOS 6.0
+iOS 7.0
 
 ## Installation
 
@@ -16,13 +16,9 @@ LHDevKit is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-source 'http://git.felink.com:3000/felink-iOS/FLSpecs'
-pod 'LHDevKit', '~> 0.1.0'
+source 'https://github.com/CocoaPods/Specs'
+pod 'LHDevKit', '~> 0.0.1'
 ```
-
-## Author
-
-leihui, leihui@felink.com
 
 ## License
 
